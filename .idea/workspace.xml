@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe4c512-9f59-4694-a085-3672dafe9472" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/GameHaven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/AdminImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceGame/GameImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceGame/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceUser/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceUser/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/Ganancias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/InversiónTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosAgotados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosEnStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosNuevos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Juegos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/AutenticacionUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/PerfilDeUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/PerfilUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Transaccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesAdmin/RepositoryA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesGame/RepositoryG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesUser/RepositoryU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryAdmin/RepositoryImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryGame/RepositoryImplG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryUser/RepositoryImplU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/cue/proyectofinal/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fwEXJrvO0xBt92T7WU5V7dvhNA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GameHaven.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe4c512-9f59-4694-a085-3672dafe9472" name="Changes" comment="" />
+      <created>1714703779209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714703779209</updated>
+      <workItem from="1714703780290" duration="1830000" />
+      <workItem from="1716567057569" duration="12138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
