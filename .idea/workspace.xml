@@ -4,46 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe4c512-9f59-4694-a085-3672dafe9472" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/GameHaven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/AdminImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceAdmin/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceGame/GameImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceGame/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceUser/UserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/serviceUser/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/Ganancias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/InversiónTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosAgotados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosEnStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainAdmin/JuegosNuevos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Juegos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainGame/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/AutenticacionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/PerfilDeUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/PerfilUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Transaccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/domainUser/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesAdmin/RepositoryA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesGame/RepositoryG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/interfacesUser/RepositoryU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryAdmin/RepositoryImplA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryGame/RepositoryImplG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/repositoryUser/RepositoryImplU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/cue/proyectofinal/hello-view.fxml" afterDir="false" />
+    <list default="true" id="9fe4c512-9f59-4694-a085-3672dafe9472" name="Changes" comment="act1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/GameHaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/cue/proyectofinal/app/GameHaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/cue/proyectofinal/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/cue/proyectofinal/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -81,26 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GameHaven.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GameHaven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,8 +78,25 @@
       <option name="presentableId" value="Default" />
       <updated>1714703779209</updated>
       <workItem from="1714703780290" duration="1830000" />
-      <workItem from="1716567057569" duration="12138000" />
+      <workItem from="1716567057569" duration="12863000" />
+      <workItem from="1716652109227" duration="310000" />
+      <workItem from="1716908562567" duration="1904000" />
+      <workItem from="1716929678884" duration="914000" />
+      <workItem from="1717023208558" duration="729000" />
+      <workItem from="1717030045578" duration="7863000" />
+      <workItem from="1717077106484" duration="11690000" />
+      <workItem from="1717094395752" duration="7179000" />
+      <workItem from="1717102192862" duration="2933000" />
     </task>
+    <task id="LOCAL-00001" summary="act1">
+      <option name="closed" value="true" />
+      <created>1716586964534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716586964534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +112,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="act1" />
+    <option name="LAST_COMMIT_MESSAGE" value="act1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
