@@ -5,7 +5,6 @@ import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
@@ -50,8 +49,6 @@ public class TestController {
     @FXML
     private Pane rootPane;
 
-    private Stage stage;
-
     public void initialize() {
         // Inicialmente, los elementos de video y la barra de progreso son invisibles
         mediaView.setVisible(false);
@@ -75,13 +72,13 @@ public class TestController {
                     Platform.runLater(() -> cargar.setProgress(finalProgress));
                     try {
                         // Simular el tiempo de espera entre actualizaciones
-                        Thread.sleep(200);
+                        Thread.sleep(50);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
                 // Alcanzado el 100% de carga, abrir nueva ventana
-                openNewWindow();
+                Platform.runLater(() -> openNewWindow());
                 return null;
             }
         };
@@ -202,28 +199,20 @@ public class TestController {
     @FXML
     private void openNewWindow() {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ruta/a/tu/FXMLDeNuevaVentana.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/cue/proyectofinal/hola.fxml"));
             Parent root = fxmlLoader.load();
+            Stage currentStage = (Stage) rootPane.getScene().getWindow(); // Obtener la referencia al Stage actual
+            currentStage.close(); // Cerrar la ventana actual
+
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
+
+            // Establecer pantalla completa
+            stage.setFullScreen(true);
+
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    @FXML
-    private void abrirNuevaVentana() {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("NuevaVentana.fxml"));
-            Parent root = fxmlLoader.load();
-
-            Stage stage = new Stage();
-            stage.setScene(new Scene(root));
-            stage.setTitle("Nueva Ventana");
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 }

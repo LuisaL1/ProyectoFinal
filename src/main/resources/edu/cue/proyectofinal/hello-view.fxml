@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.effect.InnerShadow?>
@@ -18,7 +16,7 @@
       <MediaView fx:id="mediaView4" layoutX="1000.0" layoutY="500" fitWidth="5000" fitHeight="300" />
       <MediaView fx:id="mediaView5" layoutX="1000.0" layoutY="250" fitWidth="5000" fitHeight="300" />
       <MediaView fx:id="mediaView6" layoutX="1000.0" layoutY="0.0" fitWidth="5000" fitHeight="300" />
-      <Label fx:id="label" layoutX="500.0" layoutY="300.0" text="GAMEHAVEN " style="-fx-font-size: 100px;">
+      <Label fx:id="label" layoutX="470.0" layoutY="300.0" text="GAMEHAVEN " style="-fx-font-size: 100px;">
          <font>
             <Font name="Microsoft YaHei Light" size="100.0" />
          </font>
@@ -30,11 +28,13 @@
             </Reflection>
          </effect>
       </Label>
-      <ProgressBar fx:id="cargar" layoutX="500.0" layoutY="450.0" prefWidth="600.0" style="-fx-accent: #000000; -fx-background-color: rgba(0,0,0,0); -fx-background-insets: 0; -fx-border-color: rgba(255,255,255,0); -fx-padding: 0; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-background-radius: 5px;"/>
+      <ProgressBar fx:id="cargar" layoutX="470.0" layoutY="450.0" prefWidth="600.0" style="-fx-accent: #000000; -fx-background-color: rgba(0,0,0,0); -fx-background-insets: 0; -fx-border-color: rgba(255,255,255,0); -fx-padding: 0; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-background-radius: 5px;"/>
       <!-- Añadir rootPane -->
       <Pane fx:id="rootPane" layoutX="0.0" layoutY="0.0" prefWidth="800.0" prefHeight="600.0"/>
    </children>
 </AnchorPane>
+
+
 
 
 
